@@ -46,11 +46,7 @@ const dishSchema = new Schema({
         type: String,
         default: ''
     },
-    price: {
-        type: Currency,
-        required: true,
-        min: 0
-    },
+
     featured: {
         type: Boolean,
         default: false
